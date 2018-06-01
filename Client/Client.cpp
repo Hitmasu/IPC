@@ -30,7 +30,7 @@ int main()
 		//Se não tiver sucesso na conexão, espera 5 segundos para tentar se conectar novamente
 		if (hPipe == INVALID_HANDLE_VALUE) {
 			cout << "Tenta se conectar novamente em 5 segundos..." << endl;
-			Sleep(1000);
+			Sleep(5000);
 		}
 		else {
 			cout << "Conectado!" << endl;
